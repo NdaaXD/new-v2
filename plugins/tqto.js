@@ -11,6 +11,7 @@ BIG THANKS TO
 • Zeks
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
+• Ndaa :https://github.com/NDaaXD/
 `.trim(), watermark, 'Back', '.menu')
 handler.help = ['Thanksto', 'tqto']
 handler.tags = ['main']
