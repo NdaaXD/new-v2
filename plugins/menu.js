@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-┌─〔 R-Txzy 〕
+┌─〔 NdaaBotz 〕
 ├ Hai, *%name!*
 ├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 └────
@@ -14,8 +14,7 @@ const defaultMenu = {
   header: '┌─〔 %category 〕',
   body: '├ %cmd %islimit %isPremium',
   footer: '└────\n',
-  after: `
-`,
+  after: `NdaaBotz`,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   let tags
@@ -349,7 +348,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "pemilik R-Txzy",
+                                    "description": "pemilik NdaaBotz",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
